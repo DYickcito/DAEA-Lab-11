@@ -1,0 +1,4 @@
+@model Eventos.Web.Models.Evento
+@{ ViewData["Title"] = "Editar evento"; }
+<div class="page-heading"><div><div class="eyebrow">EVENTOS / EDITAR</div><h1>Editar evento</h1><p>Actualiza los detalles del encuentro.</p></div></div><section class="panel form-panel"><form asp-action="Edit" method="post"><input type="hidden" asp-for="Id" /><partial name="_Form" model="Model" /></form></section>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

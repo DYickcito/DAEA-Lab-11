@@ -1,0 +1,13 @@
+# Visual Studio: archivos de usuario y caché
+.vs/
+*.user
+*.suo
+
+# Archivos generados por .NET
+**/bin/
+**/obj/
+packages/
+
+# Configuración local y secretos
+appsettings.*.local.json
+secrets.json

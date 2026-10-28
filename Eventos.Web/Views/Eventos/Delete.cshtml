@@ -1,0 +1,3 @@
+@model Eventos.Web.Models.Evento
+@{ ViewData["Title"] = "Desactivar evento"; }
+<div class="page-heading"><div><div class="eyebrow">EVENTOS / DESACTIVAR</div><h1>Desactivar evento</h1><p>Esta acción conserva el historial de inscripciones.</p></div></div><section class="panel form-panel"><h2>¿Desactivar «@Model.Titulo»?</h2><p>El evento dejará de aparecer en las listas activas.</p><form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" /><div class="form-actions"><button class="button" type="submit">Confirmar desactivación</button><a class="button-light" asp-action="Index">Volver</a></div></form></section>

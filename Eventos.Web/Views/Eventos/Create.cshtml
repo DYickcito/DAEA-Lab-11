@@ -1,0 +1,4 @@
+@model Eventos.Web.Models.Evento
+@{ ViewData["Title"] = "Nuevo evento"; }
+<div class="page-heading"><div><div class="eyebrow">EVENTOS / NUEVO</div><h1>Crear evento</h1><p>Completa los datos para publicar un nuevo encuentro.</p></div></div><section class="panel form-panel"><form asp-action="Create" method="post"><partial name="_Form" model="Model" /></form></section>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }
